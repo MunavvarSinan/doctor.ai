@@ -1,0 +1,30 @@
+# Dependencies
+__pycache__/
+*.pyc
+env/  # Or virtualenv dir name
+.venv/  # Or virtualenv dir name (alternative)
+venv.sqlite  # Or virtualenv db name
+# IDE and OS specific files
+*.egg-info/
+.idea/
+.vscode/
+Thumbs.db
+DS_Store
+# Build and test artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flask-specific ignores
+instance/
+# Uncomment if you use static files outside of the static folder
+# static/
+
+# Optional: Ignore local configuration files
+*.local
+
+**/.venv/
+project/
